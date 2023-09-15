@@ -1,0 +1,16 @@
+.featureCardContainer {
+    background-color: #222326;
+    width: 300px;
+    padding: 1.5rem;
+}
+
+.featureCardContainer img {
+    margin-bottom: 1rem;
+}
+
+.featureCardContainer .featureCardDescription {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    color: white;
+}

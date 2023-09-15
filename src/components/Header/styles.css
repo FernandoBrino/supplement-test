@@ -1,0 +1,31 @@
+.headerContainer {
+    background-color: rgb(22, 21, 29);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7rem;
+    border-bottom: 1px solid #F4F5F8;
+    box-shadow: 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+    margin-bottom: 8rem;
+}
+
+.headerContainer img {
+    width: 100px;
+}
+
+.headerContainer .actions {
+    display: flex;
+    gap: 3rem;
+}
+
+.headerContainer .actions a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    transition: all 0.5s;
+}
+
+.headerContainer .actions a:hover {
+    color: #5E6AD2;
+}

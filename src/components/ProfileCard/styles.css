@@ -1,0 +1,28 @@
+.profileCardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.profileDescriptionContainer .title {
+    color: #F4F5F8;
+}
+
+.profileDescriptionContainer .description {
+    margin-top: 0.5rem;
+    color: gray;
+}
+
+.profileCardContainer .profileImg {
+    width: 50px;
+    border-radius: 4px;
+}
+
+.profileCardContainer .socialmediaLogos {
+    display: flex;
+    gap: 1rem;
+}
+
+.profileCardContainer .socialmediaLogos img{
+    width: 20px;
+}
